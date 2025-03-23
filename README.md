@@ -6,16 +6,19 @@ for solo devs to use on tracking versions of their mini/small projects
 termux: pkg update;pkg upgrade;pkg install p7zip;git clone https://github.com/eli010101/solo;cd solo;g++ solo.cxx -o solo;./solo -n test
 
 # how to use 
-branching 
 
+# branching 
+````
 solo -b pathtobranch newbranchname
-
-compression/decompression for storage consumption 
-
+````
+# compression/decompression
+```
 solo -c true/false pathtocompress
+```
+this will compress paths for saving storage 
 
-new project creation 
-
+# new project creation 
+```
 solo -n projectname
-
+```
 this will create a main inside the project directory.
