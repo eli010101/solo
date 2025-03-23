@@ -1,6 +1,5 @@
 # solo 
 solo is a light weight and simple version control system (vcs)
-
 specifically made for solo devs to use on tracking versions of their mini/small projects 
 
 # how to setup 
