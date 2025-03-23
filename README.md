@@ -24,4 +24,4 @@ new project creation
 ```
 solo -n projectname
 ```
-this will create a main inside the project directory.
+this will create a the project and produce main inside the project directory.
