@@ -56,14 +56,6 @@ void decompress(string pathto) {
 		}
 }
 
-void comordec(int argc, char *argv[]){
-		if(strcmp(argv[2],"true") == 0) {
-			compress(argv[3]);
-		} else if(strcmp(argv[2],"false") == 0) {
-			decompress(argv[3]);
-		}
-}
-
 int main(int argc, char *argv[]){
 	
 	if (argc < 2){
@@ -89,7 +81,13 @@ int main(int argc, char *argv[]){
 			cout << "\n error in arguments!\n";
 			return 0;
 		} else {
-			comordec(argc,argv);
+			if(strcmp(argv[2],"true") == 0) {
+			compress(argv[3]);
+		} else if(strcmp(argv[2],"false") == 0) {
+			decompress(argv[3]);
+		} else {
+			cout<<"\nunknown argument!\n";
+		}
 			}
 		
 	} else {
