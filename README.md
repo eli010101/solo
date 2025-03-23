@@ -7,17 +7,18 @@ termux: pkg update;pkg upgrade;pkg install p7zip;git clone https://github.com/el
 
 # how to use 
 
-# branching 
+branching 
 ````
 solo -b pathtobranch newbranchname
 ````
-# compression/decompression
+#
+compression/decompression
 ```
 solo -c true/false pathtocompress
 ```
 this will compress paths for saving storage 
-
-# new project creation 
+#
+new project creation 
 ```
 solo -n projectname
 ```
